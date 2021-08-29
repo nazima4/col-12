@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #FF3E6C;
+    padding: 22px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    margin-left: 29px;
+}
+
+.about {
+    background: #FFEFF5;
+    padding-top: 49px;
+
+}
+.box-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.box-desc {
+    font-size: 18px;
+    line-height: 21px;
+    color: #454545;
+    margin: 24px 0 35px;
+}
+
+.box-info-title {
+    margin-bottom: 7px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.box-info-desc{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #454545;
+    margin-bottom: 19px;
+}
+
+.about-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.lorem {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.class {
+    background-color: #EFEFEF;
+}
+
+.row {
+    display: flex;
+    margin: 0 -15px;
+    flex-wrap: wrap;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.col-4{
+    width: 33.3333%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+
+.services{
+    background: #EFEFEF;
+    padding: 49px 0 29px;
+    text-align: center;
+}
+
+.section-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.section-desc{
+    font-size: 18px;
+    line-height: 21px;
+    color: #454545;
+    margin: 7px 0 36px;
+}
+
+.services-box{
+    background: #FFFFFF;
+    border: 1px solid #FF3E6C;
+    padding: 23px 33px 28px;
+    margin-bottom: 36px;
+}
+
+.services-box-title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FF3E6C;
+}
+
+.services-box-info{
+    font-size: 16px;
+    line-height: 19px;
+    color: #454545;
+    text-align: left;
+    margin: 13px 0 ;
+}
+
+.box-svg{
+    background-color: #FF3E6C;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+.footer{
+padding: 39px 0;
+    background: #FF3E6C;
+}
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info-desk{
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+
